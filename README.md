@@ -296,7 +296,7 @@ streamlit run app.py
 Then log in with:
 
 - username: `admin`
-- token: `wsn_secure_2024`
+- token: `#####`
 
 ## Summary
 
