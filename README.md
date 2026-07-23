@@ -297,6 +297,30 @@ Then log in with:
 
 - username: `admin`
 - token: `wsn_secure_2024`
+- ## 📦 Model Files
+
+Due to GitHub's file size limits, the trained model files are not included directly in this repository. They are hosted as downloadable assets under the [Releases](../../releases) section.
+
+### Required Files
+| File | Location in Project |
+|------|----------------------|
+| `military_ids_model.pkl` | root directory (`/`) |
+| `military_ids_model.pkl` | `models/` |
+| `military_ids_model2.pkl` | `models/` |
+| `military_ids_model5.pkl` | `models/` |
+| `benchmark_data.joblib` | `models/` |
+| `reference_data.joblib` | `models/` |
+
+### How to Set Up
+1. Go to the [Releases page](../../releases) of this repository.
+2. Download the model files listed above from the latest release (`v1.0-models`).
+3. Place each file in its corresponding folder as shown in the table.
+4. Once placed correctly, run the project as usual:
+```bash
+   python app.py
+```
+
+> ⚠️ Note: The app will not run correctly without these model files in place.
 
 ## Summary
 
